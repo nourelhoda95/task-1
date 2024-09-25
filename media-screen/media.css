@@ -1,0 +1,715 @@
+/* media queries */
+@media (max-width: 1200px) {
+  .content-home {
+    width: 100%;  
+    margin-left: 0; 
+  }
+
+
+  .start {
+    flex-direction: column; 
+  }
+
+  nav ul {
+    flex-direction: column; 
+  }
+
+  #Trade {
+    flex-direction: column; 
+  }
+  .content-home h1 {
+
+    padding-top: 0;
+}
+
+
+  .butn1, .butn2, .butn3 {
+    width: 100%; 
+    margin: 0.5em 0; 
+  }
+
+  #Shop h2, #Shop p {
+    padding-left: 1em; 
+  }
+
+  .content-left-woc h2 {
+    font-size: 2rem;
+  }
+
+  .footer {
+    flex-direction: column; 
+  }
+  .content-home h1{
+font-size: 1.5625rem;
+    padding-top: 0;
+}
+.content-home p{
+  padding-top: 0;
+  font-size: .875rem;
+}
+}
+
+@media (max-width: 768px) {
+  header {
+    padding: 0.5em 0; 
+  }
+
+  .home {
+    height: 100vh; 
+  }
+
+  .content-home {
+    padding: 0 1em; 
+  }
+
+  nav ul li {
+    margin-left: 1em; 
+  }
+
+  .woc-saybody {
+    width: 90%; 
+  }
+
+  .foot-bottom {
+    flex-direction: column; 
+  }
+  .content-home h1{
+    font-size: 1.5625rem;
+
+    padding-top: 0;
+}
+.content-home p{
+  padding-top: 0;
+  font-size: .875rem;
+}
+
+}
+
+@media (max-width: 480px) {
+  .start {
+    justify-content: center; 
+  }
+  .home {
+    height: 100vh; 
+  }
+  nav ul li {
+    margin-left: 0;
+  }
+
+  .content-left-woc h2, .content-left-woc p {
+    font-size: 1.5rem;   
+  }
+
+  .butn1, .butn2, .butn3 {
+    width: 100%; 
+  }
+  .content-home h1{
+    font-size: 1.5625rem;
+    padding-top: 0;
+}
+.content-home p{
+  padding-top: 0;
+  font-size: .875rem;
+}
+}
+
+
+@media (max-width: 360px) {
+  .start {
+    justify-content: center; 
+  }
+  .home {
+    height: 100vh; 
+  }
+  nav ul li {
+    margin-left: 0; 
+  }
+
+  .content-left-woc h2, .content-left-woc p {
+    font-size: 1.5rem; 
+  }
+
+  .butn1, .butn2, .butn3 {
+    width: 100%; 
+  }
+  .content-home h1{
+    font-size:1.5625rem ;
+    padding-top: 0;
+    
+}
+.content-home p{
+  padding-top: 0;
+  font-size: .875rem;
+}
+
+}
+
+
+
+
+/* للأجهزة الصغيرة مثل الموبايل */
+@media (max-width: 600px) {
+  .glop {
+    flex-wrap: wrap;
+  }
+  .card-kit {
+    width: 100%;
+    height: auto;
+  }
+  .card-body {
+    height: auto;
+  }
+}
+
+/* للأجهزة المتوسطة مثل التابلت */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .glop {
+    flex-wrap: wrap;
+  }
+  .card-kit {
+    width: 48%;
+    height: auto;
+  }
+  .card-body {
+    height: auto;
+  }
+}
+
+/* للأجهزة الكبيرة مثل الديسكتوب */
+@media (min-width: 1025px) {
+  .glop {
+    flex-wrap: nowrap;
+  }
+  .card-kit {
+    width: 32%;
+    height: 30.625rem;
+  }
+  .card-body {
+    height: 13.375rem;
+  }
+}
+
+
+
+
+/* للأجهزة الصغيرة مثل الموبايل */
+@media (max-width: 600px) {
+  #replace {
+    height: 31.25rem;
+  }
+  #replace .replcement {
+    width: 90%;
+    height:21.875rem;
+    padding: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 2rem;
+  }
+  #replace .replcement h2 {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+  }
+  #replace .replcement p {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+    width: auto;
+  }
+}
+
+/* للأجهزة المتوسطة مثل التابلت */
+@media (min-width: 601px) and (max-width: 1024px) {
+  #replace {
+    height: 31.25rem;
+    
+  }
+  #replace .replcement {
+    width: 80%;
+    height: 21.875rem;
+    padding: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3rem;
+  }
+  #replace .replcement h2 {
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.75rem; /* 44px */
+  }
+  #replace .replcement p {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+    width: auto;
+  }
+
+}
+
+/* للأجهزة الكبيرة مثل الديسكتوب */
+@media (min-width: 1025px) {
+  #replace {
+    width: 100%;
+    height: 31.5625rem; /* كما هو */
+  }
+  #replace .replcement {
+    width: 53.625rem; /* كما هو */
+    height: 19.4375rem; /* كما هو */
+    padding: 2.75rem; /* كما هو */
+    left: 21.25rem; /* كما هو */
+    top: 5.625rem; /* كما هو */
+  }
+  #replace .replcement h2 {
+    font-size: 2.625rem; /* كما هو */
+    line-height: 3.1769rem; /* كما هو */
+  }
+  #replace .replcement p {
+    font-size: 1.25rem; /* كما هو */
+    line-height: 1.75rem; /* كما هو */
+    width: 48.125rem; /* كما هو */
+  }
+}
+
+
+
+
+/* للأجهزة الصغيرة مثل الموبايل */
+@media (max-width: 600px) {
+  .electric {
+    padding-top: 2rem;
+    background-color: #FFBB1C0D;
+  }
+
+  .content-electric {
+    width: 100%;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .content-electric h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .content-electric p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-right: 0;
+  }
+
+  .slr {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .electric-card {
+    width: 100%;
+    padding: 0;
+  }
+
+  .table1, .table2 {
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .crd {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    gap: 1.5rem;
+    border: 1px solid #3CAB90;
+    background-color: #3CAB900D;
+  }
+
+  .crd img {
+    width: 100%;
+    height: auto;
+  }
+
+  .crd-category {
+    width: 100%;
+    height: auto;
+  }
+
+  .crd-category h3 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .crd-category p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-top: 0.75rem;
+  }
+}
+
+
+
+/* للأجهزة اللوحية */
+@media (max-width: 900px) {
+  .content-electric {
+    width: 100%;
+    text-align: center;
+  }
+
+  .content-electric h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .content-electric p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .slr {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .electric-card {
+    width: 100%;
+  }
+
+  .table1, .table2 {
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .crd {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    gap: 2rem;
+    border: 1px solid #3CAB90;
+    background-color: #3CAB900D;
+  }
+
+  .crd img {
+    width: 100%;
+    height: auto;
+  }
+
+  .crd-category {
+    width: 100%;
+    height: auto;
+  }
+
+  .crd-category h3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-top: 1.5rem;
+  }
+
+  .crd-category p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+  }
+}
+  
+
+/* للأجهزة الصغيرة مثل الموبايل */
+@media (max-width: 600px) {
+  .val-content h2 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .val-content .praph {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .values {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .vlu {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    gap: 1.5rem;
+    border: 1px solid #3CAB90;
+    background-color: #3CAB900D;
+  }
+
+  .value-img img {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .vlu-category h3 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+  }
+
+  .vlu-category p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding-top: 0.75rem;
+  }
+}
+
+/* للأجهزة اللوحية */
+@media (max-width: 900px) {
+  .val-content h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+  }
+
+  .val-content .praph {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .values {
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .vlu {
+    width: 100%;
+    height: auto;
+    padding: 1.5rem;
+    gap: 2rem;
+    border: 1px solid #3CAB90;
+    background-color: #3CAB900D;
+  }
+
+  .value-img img {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .vlu-category h3 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    padding-top: 1rem;
+  }
+
+  .vlu-category p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-top: 1rem;
+  }
+}
+
+
+
+/* للأجهزة الصغيرة مثل الموبايل */
+@media (max-width: 600px) {
+  .left-woc {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-left-woc {
+    width: 100%;
+  }
+
+  .content-left-woc h2 {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    width: auto;
+  }
+
+  .content-left-woc p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    width: auto;
+  }
+
+  .woc {
+    height: auto;
+    padding: 2rem 0;
+  }
+
+  .woc-saybody {
+    width: 100%;
+    height: 93.75rem;
+    padding: 0rem;
+  
+  }
+  .woc-foot{
+    padding: top 160px;
+    padding-right: 3.125rem;
+  
+  
+  }
+
+
+  .content-p {
+    font-size: .875rem;
+    line-height: .875rem;
+    width: 21.875rem;
+  }
+
+  .foot1 img {
+    width: 3rem;
+    height: 3rem;
+  
+  }
+
+  .p-dot p {
+    font-size: 0.875rem;
+  }
+
+  .p-dot img {
+    height: 0.5rem;
+  }
+  
+  .frame img{
+    margin-top: 9.375rem;
+    height: 6.25rem;
+  }
+
+}
+
+/* للأجهزة اللوحية */
+@media (max-width: 900px) {
+  .left-woc {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content-left-woc {
+    width: 80%;
+  }
+
+  .content-left-woc h2 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+    width: auto;
+  }
+
+  .content-left-woc p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    width: auto;
+  }
+
+  .woc-saybody {
+    width: 80%;
+    height: auto;
+    padding: 2rem;
+  }
+
+  .content-p {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    width: auto;
+  }
+}
+
+
+
+
+
+
+
+/* للأجهزة الصغيرة مثل الموبايل */
+@media (max-width: 600px) {
+  .footer {
+    padding: 2rem 1rem; /* تقليل padding */
+    height: auto; /* اجعل ارتفاع الـfooter تلقائي */
+  }
+
+  .foot {
+    flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+    align-items: center; /* محاذاة العناصر في الوسط */
+  }
+
+  .list-foot {
+    flex-direction: column; /* جعل العناصر عمودية */
+    gap: 1rem; /* تقليل الفجوة بين العناصر */
+    padding: 1rem 0; /* تعديل padding */
+  }
+
+  .foot-right {
+    text-align: center; /* محاذاة النص في المنتصف */
+    padding: 1rem 0; /* تعديل padding */
+  }
+
+  .foot-right input {
+    width: 100%; /* جعل عرض حقل البريد الإلكتروني 100% */
+    margin-bottom: 1rem; /* إضافة مسافة أسفل الحقل */
+  }
+
+  .foot-right .foot-sub {
+    width: 100%; /* جعل عرض زر الاشتراك 100% */
+  }
+
+  .foot-bottom {
+    flex-direction: column; /* جعل العناصر عمودية */
+    align-items: center; /* محاذاة العناصر في الوسط */
+    text-align: center; /* محاذاة النص في المنتصف */
+  }
+
+  .list-2 {
+    flex-direction: column; /* جعل العناصر عمودية */
+    gap: 0.5rem; /* إضافة مسافة بين العناصر */
+  }
+
+  .foot-bottom p {
+    padding-top: 1rem; /* إضافة مسافة فوق نص حقوق الطبع */
+  }
+}
+
+/* للأجهزة اللوحية */
+@media (max-width: 900px) {
+  .footer {
+    padding: 2.5rem 1.5rem; /* تعديل padding */
+  }
+
+  .foot {
+    flex-direction: column; /* تغيير الاتجاه إلى عمودي */
+    align-items: center; /* محاذاة العناصر في الوسط */
+  }
+
+  .list-foot {
+    flex-direction: column; /* جعل العناصر عمودية */
+    gap: 1.5rem; /* تعديل الفجوة بين العناصر */
+    padding: 1.5rem 0; /* تعديل padding */
+  }
+
+  .foot-right {
+    text-align: center; /* محاذاة النص في المنتصف */
+  }
+
+  .foot-right input {
+    width: 100%; /* جعل عرض حقل البريد الإلكتروني 100% */
+  }
+
+  .foot-right .foot-sub {
+    width: 9.375rem; /* جعل عرض زر الاشتراك 100% */
+    position: absolute;
+    left: 14.375rem;
+  }
+
+  .foot-bottom {
+    flex-direction: column; /* جعل العناصر عمودية */
+    align-items: center; /* محاذاة العناصر في الوسط */
+    text-align: center; /* محاذاة النص في المنتصف */
+  }
+
+  .list-2 {
+    flex-direction: column; /* جعل العناصر عمودية */
+    gap: 0.5rem; /* إضافة مسافة بين العناصر */
+  }
+}
+
+
+
+
+
+
+
+
+
+
